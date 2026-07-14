@@ -1,0 +1,122 @@
+.a{
+  margin: 0px 20px 50px 0px;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 5px;
+}
+body{
+  background-image: url(background.jpg.jpeg);
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  color: aliceblue;
+}
+
+*{
+    color: white;
+    
+}
+.log{
+    border-radius: 6px;
+    padding: 8px;
+}
+.link{
+    color: #7e7af5;
+}
+.btn1{
+    background-color: #7e7af5;
+    border: 1px solid #7e7af5;
+}
+.btn2{
+    border: 1px solid rgb(253, 251, 251);
+    background-color: #120e2e;
+    color: #ffffff;
+    
+}
+
+.b{
+  margin: 0px 20px 50px 20px;
+  padding: 10px;
+}
+
+.c{
+  margin: 0px 0px 50px 20px;
+  padding: 10px;
+}
+
+a{
+  padding: 5px;
+  text-decoration: none;
+}
+
+button{
+  margin: 5px;
+  padding: 5px;
+}
+
+#div1{
+  margin-top:5%;
+  width: 350px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+#div2{
+  width: 20px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#div3{
+  margin: 10px;
+}
+
+div button{
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.div4{
+  width: 70px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+p{
+  font-size: 10px;
+}
+
+#line{
+  background-color: black;
+  display: inline;
+}
+
+.block{
+  display: inline-block;
+  width: 120px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  
+}
+
+.z{
+  background-color: pink;
+}
+
+.y{
+  background-color: red;
+}
+
+h3{
+  display: inline-block;
+  margin: 0px;
+}
+
+.features{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 400px;
+  gap: 10px;
+}
