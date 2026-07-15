@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Payment form</h1>
+    <hr>
+
+    <h2>Personal Information</h2>
+
+    <form>
+        <label>Name :</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Contact :</label>
+        <input type="tel" placeholder="Enter your mobile no.">
+
+        <label>Date of birth :</label>
+        <input type="date">
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label>
+                <input type="radio" name="gender"> Male
+            </label>
+            <br><br>
+            <label>
+                <input type="radio" name="gender"> Female
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>family details</legend>
+            <label >
+                <input type="checkbox" name="FD">government job
+
+            </label>
+            <label >
+                <input type="checkbox" name="FD" id="FD">pension holder
+            </label>
+        </fieldset>
+
+        <label>Address :</label>
+        <textarea rows="8" placeholder="Enter your address"></textarea>
+
+        <label>Email :</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Pincode :</label>
+        <input type="number" placeholder="Enter your pincode">
+
+        <h2>Payment Information</h2>
+
+        <label>Card type :</label>
+        <select>
+            <option>--Select a card type--</option>
+            <option>Visa</option>
+            <option>Master Card</option>
+            <option>RuPay</option>
+        </select>
+
+        <label>Card number :</label>
+        <input type="text" placeholder="000-1111-2222-3333">
+
+        <label>Expiry date :</label>
+        <input type="month">
+
+        <label>CVV :</label>
+        <input type="password">
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</div>
+
+</body>
+</html>
