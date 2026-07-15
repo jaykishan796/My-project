@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - Work With Multiple Clients</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="signup.css" rel="stylesheet">
+</head>
+<body class="d-flex align-items-center justify-content-center min-vh-100 py-5">
+
+  <!-- Sign-Up Container -->
+  <div class="container d-flex justify-content-center">
+    <div class="signup-card-outer p-4 p-sm-5">
+      <div class="signup-card-inner card border-0 shadow p-4 mx-auto">
+        
+        <!-- Header -->
+        <div class="text-center mb-4">
+          <h2 class="fw-bold text-dark mb-1">Welcome</h2>
+          <p class="text-muted small">Please sign up for working with Multiple clients at a time</p>
+        </div>
+
+        <!-- Form Wrapper -->
+        <form>
+          <!-- First & Last Name Fields (Aligned inline on tablets/desktops) -->
+          <div class="row g-3 mb-3">
+            <div class="col-sm-6">
+              <label for="first" class="form-label fw-bold text-dark small">First Name</label>
+              <input type="text" class="form-control rounded-3" id="first" placeholder="Enter your First Name" required>
+            </div>
+            <div class="col-sm-6">
+              <label for="last" class="form-label fw-bold text-dark small">Last Name</label>
+              <input type="text" class="form-control rounded-3" id="last" placeholder="Enter your Last Name" required>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="Email" class="form-label fw-bold text-dark small">Email</label>
+            <input type="email" class="form-control rounded-3" id="Email" placeholder="Enter your Email" required>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="mb-3">
+            <label for="Phone" class="form-label fw-bold text-dark small">Phone Number</label>
+            <input type="tel" class="form-control rounded-3" id="Phone" maxlength="10" placeholder="Enter your Phone Number" required>
+          </div>
+
+          <!-- Username -->
+          <div class="mb-3">
+            <label for="user" class="form-label fw-bold text-dark small">Username</label>
+            <input type="text" class="form-control rounded-3" id="user" placeholder="Create your Username" required>
+          </div>
+
+          <!-- Password (Changed type field from text to hidden password variant) -->
+          <div class="mb-4">
+            <label for="Password" class="form-label fw-bold text-dark small">Password</label>
+            <input type="password" class="form-control rounded-3" id="Password" placeholder="Create your Password" required>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-submit w-100 py-2.5 rounded-3 text-white fw-bold shadow-sm">Sign up</button>
+        </form>
+
+        <!-- Login Link Option -->
+        <div class="text-center mt-4">
+          <a href="login.html" class="login-redirect text-decoration-none small text-muted">
+            Already have an Account? <span class="fw-bold brand-link">login</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

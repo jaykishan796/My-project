@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Your Account - EditLink</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="how.css" rel="stylesheet">
+</head>
+<body class="bg-light-custom min-vh-100 py-4">
+
+  <div class="container my-4">
+    <header class="mb-4">
+      <h2 id="title" class="fw-bolder fs-3 text-dark">
+        Edit<span class="brand-colour">Link</span>
+      </h2>
+    </header>
+
+    <section class="text-center mb-5">
+      <h2 class="fw-bold text-dark">Create your account</h2>
+      <p class="text-muted fs-6">Choose the type of account you want to create</p>
+    </section>
+
+    <div class="row g-4 justify-content-center mb-5">
+      
+      <div class="col-md-6 col-lg-5">
+        <div class="selection-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+          <h3 class="fw-bold text-center mb-1">I am <span class="brand-colour">Client</span></h3>
+          <p class="text-muted text-center mb-4 small">Hire video editors for your project</p>
+          
+          <label class="option-wrapper d-flex justify-content-between align-items-start p-3 border rounded-3 mb-3 pointer" onclick="document.location.href='SignupOneE.html'">
+            <div>
+              <h5 class="fw-bold fs-6 mb-1">One editor at a time</h5>
+              <p class="text-muted mb-0 small">Hire and work with one editor at a time.</p>
+            </div>
+            <input type="radio" name="typeofacc" id="oneClient" class="form-check-input ms-3 brand-radio">
+          </label>
+          
+          <label class="option-wrapper d-flex justify-content-between align-items-start p-3 border rounded-3 pointer" onclick="document.location.href='SignupMulE.html'">
+            <div>
+              <h5 class="fw-bold fs-6 mb-1">Multiple editors</h5>
+              <p class="text-muted mb-0 small">Hire up to 4 editors at a time.</p>
+            </div>
+            <input type="radio" name="typeofacc" id="multipleClient" class="form-check-input ms-3 brand-radio">
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-5">
+        <div class="selection-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+          <h3 class="fw-bold text-center mb-1">I am an <span class="brand-colour">Editor</span></h3>
+          <p class="text-muted text-center mb-4 small">Work with clients and grow your career</p>
+          
+          <label class="option-wrapper d-flex justify-content-between align-items-start p-3 border rounded-3 mb-3 pointer" onclick="document.location.href='SignupOneC.html'">
+            <div>
+              <h5 class="fw-bold fs-6 mb-1">One client at a time</h5>
+              <p class="text-muted mb-0 small">Work with one client at a time.</p>
+            </div>
+            <input type="radio" name="typeofacc" id="oneEditor" class="form-check-input ms-3 brand-radio">
+          </label>
+          
+          <label class="option-wrapper d-flex justify-content-between align-items-start p-3 border rounded-3 pointer" onclick="document.location.href='SignupMulC.html'">
+            <div>
+              <h5 class="fw-bold fs-6 mb-1">Multiple clients</h5>
+              <p class="text-muted mb-0 small">Work with up to 4 clients at a time.</p>
+            </div>
+            <input type="radio" name="typeofacc" id="multipleEditor" class="form-check-input ms-3 brand-radio">
+          </label>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mb-4">
+      <div id="man" class="d-inline-block px-4 py-2.5 rounded-3 fw-medium">
+        AI verification is mandatory for both clients and editors to ensure genuineness and safety.
+      </div>
+    </div>
+
+    <footer class="text-center mt-4">
+      <p class="fw-bold text-secondary">
+        Already have an account? <a class="brand-colour text-decoration-none" href="Login.html">Login</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="Website.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

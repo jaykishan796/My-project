@@ -1,0 +1,60 @@
+/* Color Variables & Global Styles */
+:root {
+  --brand-color: #7e7af5;
+  --bg-dark-accent: #120e2e;
+}
+
+body {
+  background-image: linear-gradient(rgba(18, 14, 46, 0.8), rgba(18, 14, 46, 0.8)), url('background.jpg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #f8f9fa; /* Bootstrap's light color */
+}
+
+/* Brand Palette Overrides */
+.brand-accent {
+  color: var(--brand-color) !important;
+}
+
+.btn-brand {
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+  transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+  background-color: #645fdb;
+  border-color: #645fdb;
+}
+
+/* Custom Buttons Styling */
+.btn-custom {
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+/* Hero CTA Button Overrides */
+.btn-lg {
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  min-width: 140px;
+}
+
+/* Features Cards Styling */
+.feature-card {
+  background-color: rgba(0, 0, 0, 0.5); /* Replaces raw black block/line styling */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+}
+
+.max-width-features {
+  max-width: 850px; /* Constrains features section so they align elegantly on wider screens */
+}

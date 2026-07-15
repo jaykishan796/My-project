@@ -1,0 +1,59 @@
+/* Color System */
+:root {
+  --brand-purple: #8250ba;
+  --banner-bg: rgba(130, 80, 186, 0.12);
+  --banner-text: #6838a1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif, "Segoe UI";
+}
+
+/* Custom background color wrapper */
+.bg-light-custom {
+  background-color: #f8f7fa;
+}
+
+.brand-colour {
+  color: var(--brand-purple) !important;
+}
+
+/* Info Banner Styling */
+#man {
+  background-color: var(--banner-bg);
+  color: var(--banner-text);
+  font-size: 0.95rem;
+  max-width: 750px;
+  border: 1px solid rgba(130, 80, 186, 0.2);
+}
+
+/* Selection Cards Base Layouts */
+.selection-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selection-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Outer wrapper click target boundaries for radio items */
+.option-wrapper {
+  background-color: #ffffff;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.option-wrapper:hover {
+  background-color: #fbf9fe;
+  border-color: var(--brand-purple) !important;
+}
+
+/* Customizing Bootstrap Radios to fit Theme Color Palette */
+.brand-radio:checked {
+  background-color: var(--brand-purple);
+  border-color: var(--brand-purple);
+}
+
+.pointer {
+  cursor: pointer;
+}
