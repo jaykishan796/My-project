@@ -1,0 +1,48 @@
+header h1{
+    color: rgb(204, 220, 235);
+    padding: 50px;
+    text-align: center;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.WeN3a45qqQZ52Fbkg0POqgHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+
+nav{
+    background-color: rgb(92, 125, 159);
+    height: 50px;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    padding: 15px;
+    float: left;
+    text-decoration: none;
+}
+main section div h1{
+    text-align: center;
+    color: rgb(125, 225, 239);
+    background-color: gray;
+    padding: 10px;
+}
+img{
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    overflow: hidden;
+    text-decoration: none;
+}
+footer a {
+    image-rendering: auto;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.lund{
+    display: flex;
+    justify-content: center;
+}
